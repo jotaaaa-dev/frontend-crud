@@ -6,7 +6,7 @@ import Cabecalho from '../components/Cabecalho'
 
 import { BACKEND } from '../constants'
 
-import { BiPlanet, BiJoystick, BiSave, BiError, BiTrash, BiPencil } from "react-icons/bi";
+import { BiPlanet, BiJoystick, BiSave, BiError, BiTrash, BiPencil, BiRename, BiCalendar, BiListUl, BiExtension, BiUpload, BiBuilding, BiWrench } from "react-icons/bi";
 
 <link rel="stylesheet" href="Categorias.css"></link>
 
@@ -282,13 +282,13 @@ const Categorias = () => {
                         <Table striped bordered hover>
                             <thead>
                                 <tr className="bg-info text-dark">
-                                    <th>Nome</th>
-                                    <th>Data de Lançamento</th>
-                                    <th>Gênero</th>
-                                    <th>Plataforma</th>
-                                    <th>Tamanho(GB)</th>
-                                    <th>Desenvolvedora</th>
-                                    <th>Opções</th>
+                                    <th><BiRename/> Nome</th>
+                                    <th><BiCalendar/> Data de Lançamento</th>
+                                    <th><BiListUl/> Gênero</th>
+                                    <th><BiExtension/> Plataforma</th>
+                                    <th><BiUpload/> Tamanho(GB)</th>
+                                    <th><BiBuilding/> Desenvolvedora</th>
+                                    <th><BiWrench/> Opções</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -318,7 +318,7 @@ const Categorias = () => {
                                 ))}
                                 <tr className="bg-success text-light">
                                     <td colspan="6">Total de Registros:</td>
-                                    <td>{categorias.length}</td>
+                                    <td>{categorias.length} registros</td>
                                 </tr>
                             </tbody>
                         </Table>

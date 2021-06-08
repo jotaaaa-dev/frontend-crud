@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
 import Cabecalho from '../components/Cabecalho'
+import Rodape from '../components/Rodape'
 
 const Contato = () => {
 
@@ -17,6 +18,7 @@ const Contato = () => {
                 <Jumbotron>
                     <h1>Ligue para nós!</h1>
                 </Jumbotron>
+                <Rodape />
             </Container>
         </>
     )

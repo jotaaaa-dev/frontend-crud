@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Jumbotron from 'react-bootstrap/Jumbotron'
 
 import Cabecalho from '../components/Cabecalho'
+import Rodape from '../components/Rodape'
 
 const Inicio = () => {
 
@@ -21,6 +22,7 @@ const Inicio = () => {
                     </p>
                 </Jumbotron>
             </Container>
+            <Rodape />
         </>
     )
 }
