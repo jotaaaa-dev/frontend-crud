@@ -1,7 +1,7 @@
-# Backend em NodeJS
+# Frontend em ReactJS
 ## _Fatec Itu_
 
-Backend em NodeJS com interação via REST
+Frontend em ReactJS
 
 Desenvolvimento web para uma tabela CRUD (CREATE, READ, UPDATE AND DELETE)
                                           CRIAR,  LER, ATUALIZAR E DELETAR
